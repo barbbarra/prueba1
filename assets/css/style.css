@@ -1,0 +1,15 @@
+.logo {
+  height: 60px;
+}
+.navbar-brand {
+  height: 60px;
+}
+.bg-light {
+    background-color: white !important;
+}
+body {
+  background-color: #f3f3f3;
+}
+h2 {
+  color: green;
+}
