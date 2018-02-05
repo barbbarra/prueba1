@@ -20,32 +20,83 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nuestra Misión</a>
+          <a class="nav-link" href="#">Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="assets/blog.html">Blog</a>
         </li>
       </ul>
+      <h3 class="font-weight-light text-success">Fundación Asperger</h3>
     </div>
   </nav>
 <main>
   <section class="nosotros">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-7 ">
-          <h1 class="mt-5 p-2">Fundación Asperger</h1>
-          <img  class="chico img-fluid pt-2 pr-0 pb-5 pl-2 w-80" src="assets/img/nino-asperger.jpg" alt="niño con asperger mirando triste">
-        </div>
-        <div class="col-12 col-md-5 pt-4">
 
-          <p class="font-weight-light mt-5 pt-5 text-justify">Asperger Chile nace el 22 de Mayo de 2008, como una comunidad virtual desde la plataforma Facebook.
+
+
+    <!-- Comienza carrusel -->
+    <div class="container-fluid">
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img class="img-fluid img-responsive" src="assets/img/sxntomas.jpg" alt="Niño con asperger">
+          <div class="carousel-caption">
+          <h3 class="text-secondary">Sensibilizando a la Comunidad</h3>
+          <p>Durante el año 2010, se realizaron charlas a colegios y jardines infantiles... </p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Leer más</a></p>
+  </div>
+        </div>
+        <div class="carousel-item img-fluid img-responsive">
+          <img class="img-fluid img-responsive"src="assets/img/niño-con-asperger.jpg" alt="Niño triste mirando por la ventana">
+          <div class="carousel-caption">
+          <h3 class="text-dark">Sensibilizando a la Comunidad</h3>
+          <p>Durante el año 2010, se realizaron charlas a colegios y jardines infantiles... </p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Leer más</a></p>
+        </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    </div>
+    <!-- termina carrusel -->
+
+    <!-- Contenido -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="row">
+        <div class="col-12 col-md-6 pt-4 pl-5">
+          <h3 class="featurette-heading">Asperger Chile
+            <span class="text-muted">Una fundación abierta a la comunidad</span>
+          </h3>
+          <p class="font-weight-light text-justify">Asperger Chile nace el 22 de Mayo de 2008, como una comunidad virtual desde la plataforma Facebook.
           </p>
-          <p class="font-weight-light m-1 text-justify">
+          <p class="font-weight-light text-justify">
             Somos familias de todo Chile, con realidades socioeconómicas transversales, pero todas tenemos un lugar común: la vida escolar de nuestros hijos, lejos de ser una experiencia motivadora, es una fuente de frustración e impotencia “por no cumplir con la norma”.
           </p>
-          <p class="font-weight-light m-1 text-justify">
+          <p class="font-weight-light text-justify">
             Junto con ello, buscamos que los niños Asperger y los que se encuentren dentro del Espectro Autista, cuenten con el apoyo multidisciplinario que necesitan: Neurología, Siquiatría, Terapia Ocupacional, Sicología, Fonoaudiología, y la Terapia Medicamentosa.
           </p>
+        </div>
+        <div class="col-12 col-md-5 ">
+
+          <img  class="chico img-fluid rounded pt-2 pr-0 pl-2 w-80" src="assets/img/nino-asperger.jpg" alt="niño con asperger mirando triste">
         </div>
       </div>
     </div>
@@ -105,5 +156,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="asset/jquery/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
